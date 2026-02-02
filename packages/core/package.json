@@ -1,0 +1,38 @@
+{
+  "name": "@hazelnutjs/core",
+  "description": "-",
+  "version": "0.0.0",
+  "author": "Dirga Prakesha <dirga.prakesha@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirgaprksha/hazelnutjs.git",
+    "directory": "packages/core"
+  },
+  "keywords": [
+    "design-systems",
+    "state-machine",
+    "typescript",
+    "javascript",
+    "framework-agnostic",
+    "type-safe",
+    "tree-shakeable"
+  ],
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.js",
+    "dist/index.esm.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.mjs --environment TARGET:core",
+    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
+    "clean": "rimraf node_modules dist"
+  },
+  "dependencies": {
+    "@pistachiojs/core": "^0.3.0"
+  }
+}

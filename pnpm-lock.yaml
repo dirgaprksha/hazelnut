@@ -81,7 +81,11 @@ importers:
         specifier: ^4.0.16
         version: 4.0.18(@types/node@24.10.9)(jsdom@25.0.1)
 
-  packages/core: {}
+  packages/core:
+    dependencies:
+      '@pistachiojs/core':
+        specifier: ^0.3.0
+        version: 0.3.0
 
 packages:
 
@@ -1936,6 +1940,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.20.1
+    dev: false
+
+  /@pistachiojs/core@0.3.0:
+    resolution: {integrity: sha512-sSEGiF/5nY8I+hYRVG/N+MHMl0qmG5gaxpT0+1pEe9NKt7/8V5c2aT9fML6EkRe1XrrOc7qh1CrOoPQP2SxGkQ==}
     dev: false
 
   /@pkgr/core@0.2.9:
