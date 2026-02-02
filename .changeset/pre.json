@@ -1,0 +1,20 @@
+{
+  "mode": "pre",
+  "tag": "dev",
+  "initialVersions": {
+    "@pistachiojs/core": "0.3.0",
+    "@pistachiojs/react": "0.1.0",
+    "@pistachiojs/vue": "0.1.0"
+  },
+  "changesets": [
+    "brown-bats-behave",
+    "dark-beds-yawn",
+    "dry-jobs-move",
+    "jolly-rings-press",
+    "lemon-experts-learn",
+    "petite-cougars-rush",
+    "upset-beans-care",
+    "upset-zebras-reply",
+    "wacky-ideas-juggle"
+  ]
+}
